@@ -1,1 +1,1 @@
-# A4-Escuderias-F1-2022
+# Escuderias-F1-2022
