@@ -16,11 +16,13 @@ div h2 {
     font-size: 200%;
 }
 
-#header {
+#Header {
     height: 100vh;
-    background-image: url(../img/WhatsApp\ Image\ 2022-03-14\ at\ 4.44.30\ PM.jpeg);
+    background-image: url(../img/F12022-index4.jpg);
     background-size: cover;
     background-position: center;
+    text-align: initial;
+    text-align: inherit;
 }
 
 #header h2 {
@@ -37,6 +39,10 @@ div h2 {
     padding-right: 20%;
 }
 
+span {
+    color: red;
+}
+
 #main p {
     font-size: 200%;
     color: white;
@@ -50,6 +56,12 @@ div h2 {
 iframe {
     width: 100%;
     height: 400px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #informacion {
@@ -68,12 +80,6 @@ img {
     background-color: black;
     color: gray;
     padding: 12px;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 @media only screen and (max-width:800px) {
